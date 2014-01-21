@@ -1,0 +1,51 @@
+1. single dimension arrays
+2. arrays as references
+3. making a copy of an array
+4. multi dimensional arrays
+
+
+1. Array Declarations
+-arrays are static
+-a length is required for declaration
+-the new mechanism is often used to construct the array object
+- arrays are references
+
+=======================================================================
+
+double [] arr1 = new double [3];
+                 ^(creation mechanism)
+
+arr1 = | | | |;
+
+2. int [] arr2 = {1,2,7};
+
+3. final int SIZE = 3;
+
+int [] arr3 = new int [SIZE];
+
+4. int len = in.nextInt();
+int [] arr4 = new int [len];
+
+5. int [] arr5 = new double [4]; (ERROR. Conflicting data types)
+
+=========================================================================
+
+Reference : pointer to address
+
+String[] names = {"Penguin", "Mead", "Engie"};
+
+code:
+
+modifyMe(names); 
+
+static void modifyMe(String[] temp);
+
+
+==========================================================================
+
+Utilities:
+
+1. Sort   (Takes contents of array and sorts them)
+2. CopyOf()     (Makes a new copy of an object)
+3. 
+
