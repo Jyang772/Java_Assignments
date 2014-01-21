@@ -1,3 +1,7 @@
+//Justin Yang
+//Assignment_1_Program_1
+//1/20/14
+
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;

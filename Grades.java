@@ -1,3 +1,7 @@
+//Justin Yang
+//Assignment_1_Program_2
+//1/20/14
+
 import java.util.Scanner;
 import java.util.Arrays;
 
