@@ -1,0 +1,52 @@
+1/27/14
+
+Topics: 
+1. OOP in general term
+2. Concept of a class
+3. Anatomy of a Java class
+
+Program app.
+a. Data representation; data members
+b. public interface
+c. private implementation
+d. mutator vs. accessor
+e. constructor
+
+OOP
+Object oriented programming
+
+Class(parent) or Object(child)
+
+Class 
+Class name: 1st letter of name should be uppercase
+Characteristics: Data members, variables
+Behavior: methods that act on an object
+
+class AirlineFlight;
+characteristics: 
+	String airline;
+	String flightNumber;
+	String departCity;
+	String arriveCity;
+	String path;
+	String status;
+	
+
+Behavior methods (Operations)
+
+public:
+setAirline(string s);
+setDepartCity(string s);
+setArriveCity(string s);
+getStatus();
+
+private:
+computePath();
+
+
+
+Test Application
+
+AirlineFlight af1 = new AirlineFlight();
+af1.setAirline("AirPengu");
+
